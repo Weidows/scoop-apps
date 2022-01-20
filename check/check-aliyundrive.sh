@@ -26,7 +26,6 @@ function getGeneratedVersionInfo() {
     local versionUrl="https://g.alicdn.com/aliyun-drive-fe/aliyun-drive-desktop-version/$ymlVersion/win32/ia32/latest.yml"
 
     info="$(curl -s -A "$userAgent" "$versionUrl")"
-    echo "$info" >aliyundrive-latest.yml
     latestVersion="$(echo "$info" | grep -Po "version:.*" | grep -Po "[\d.]+")"
     localVersion="$(cat ../aliyundrive | jq -r ".version")"
     echo "Latest version:  ${latestVersion}"
@@ -64,6 +63,7 @@ function getGeneratedVersionInfo() {
             aliyundrive.json
         # do not prompt before overwriting
         mv -f aliyundrive.json ../aliyundrive
+        echo "$info" >aliyundrive-latest.yml
         mv -f aliyundrive-latest.yml ../aliyundrive-latest.yml
     fi
 }
