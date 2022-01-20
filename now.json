@@ -1,0 +1,64 @@
+{
+    "redirects": [
+        {
+            "source": "/msedge-stable-win-ARM64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/160e38e0-7754-42d7-b374-79ffb0952f4c?P1=1643294051&P2=404&P3=2&P4=RZr7SuVEMuIX6WkWkhMrvQ9VZwFshFu2UfXHNr67yS39vD1quxnFgOeTCfL8fc2YbehbPcBgCyCessOwkUMCgg%3d%3d"
+        },
+        {
+            "source": "/msedge-stable-win-X86",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/c54fddfa-3e2b-43dc-9a12-9ced61314abd?P1=1643294050&P2=404&P3=2&P4=bRzFJIL8KxTe6QzxMnniGhPMELKOs%2fqgMrR4n2pvfVnDzjF7iOw1WJGo3Mh47%2bgmK93xDHLiVxeoCR%2fLQ3sVrQ%3d%3d"
+        },
+        {
+            "source": "/msedge-stable-win-X64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/235ce9a3-b860-47dc-a7f0-13a38fa31532?P1=1643294049&P2=404&P3=2&P4=jtfcvbtFoJsOOK2Vdh7y0gfzPZG1qNRZEy%2bbhMeFm1d9qxYoYLbyEzGMVeQtLxXlYYEUiMg1zv7ly2gKz7S6zQ%3d%3d"
+        },
+        {
+            "source": "/msedge-beta-win-ARM64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6123f511-1d9f-4778-82a3-0f766be861e2?P1=1643294054&P2=404&P3=2&P4=fjL6jgSJjrCZKEgEM%2bPeCFZc1X6TKJ2qgcUGdVGO1XYVcaHo9OtQHVY5k3cDkfKSZlmDkLEW5FpaLtELf1%2bGHA%3d%3d"
+        },
+        {
+            "source": "/msedge-beta-win-X86",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/d9b2319b-9885-4f30-989d-a30109e0e8a6?P1=1643294053&P2=404&P3=2&P4=kUMX0COcfiLaGry9H8TrwMTMXkXuLyeP7j8sp3DUmvoYAT4RREuG5dx1zz8KotXRSuUNMi66E3RcLtiMxbCzHw%3d%3d"
+        },
+        {
+            "source": "/msedge-beta-win-X64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/02f09b43-1659-4742-ba64-f135fe18b638?P1=1643294052&P2=404&P3=2&P4=Pxo4G3AnpyV%2fHtA%2fLuKkrzGgaHNrBdQJbh2EEFnZIicL12MThD56a2L3KFe6TN7iRdBWJbak%2byk2aApqmMeU%2bQ%3d%3d"
+        },
+        {
+            "source": "/msedge-dev-win-ARM64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f9dd41fb-9ada-49a1-83c4-6a22e2cb64c4?P1=1643294057&P2=404&P3=2&P4=exITvtJmcOkWU4b3eVV4N3XlN4NFQDAKMaYFumHWjkDvoW7MjxQpGD4Drdyzw6MQbULzzyeYU0gfwquFiw1xSQ%3d%3d"
+        },
+        {
+            "source": "/msedge-dev-win-X86",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/f70e01b2-e757-48c1-8f69-f51c18529f86?P1=1643294056&P2=404&P3=2&P4=T1X7pJFhR38sTURbo7NhYg%2bBOt9f1EawE%2bM9eDFlS%2bossGyTEKJEQ%2f3b1ENobmLJYPgchg97JWGV7Wakcltp8w%3d%3d"
+        },
+        {
+            "source": "/msedge-dev-win-X64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6a234802-7d5d-4fc1-b0dd-caff05b45eb8?P1=1643294055&P2=404&P3=2&P4=OOtg2YJcZ2RXXiAiEjnttKrYVzuD9SeIaK779TTDLRwh2jz3Mhv%2bm1es%2bw6VU0w%2bijrv6g%2bDwivz5zeoCEnvCw%3d%3d"
+        },
+        {
+            "source": "/msedge-canary-win-ARM64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6020bcb4-08d6-41b5-9dcf-e46879f45449?P1=1643294061&P2=404&P3=2&P4=luHrV%2fXTLdHlXxX7lA4nQR9SdgTamjUGOsaQAKGipHAu4KmFPM%2blLaRD6PpN8%2bmwCHvL9lw6GiGcDodBQtdZlQ%3d%3d"
+        },
+        {
+            "source": "/msedge-canary-win-X86",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/db0f2ff5-0b90-4ac1-997f-c8703731b6c3?P1=1643294060&P2=404&P3=2&P4=HW5tZLTh9ZH%2fJiUfTT6E22dPGtWcboYpe7fwLAaRJdCTKFA8cx%2frkdkJ0w0q4ubG%2fLDkxbs24czCXhtR62Z%2bMQ%3d%3d"
+        },
+        {
+            "source": "/msedge-canary-win-X64",
+            "destination": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/d935d4f3-fcd5-40b7-a0cf-e9a2e965a110?P1=1643294058&P2=404&P3=2&P4=b1BWKBP0zkp81XGb3Nnv%2byM%2bazzpjiwZHNz4x9UGjsro0%2fwhQr%2fcQLP4wzAtkMuoVdVdr%2fhVb2vHfmAaDqUDFA%3d%3d"
+        },
+        {
+            "source": "/msedge",
+            "destination": "https://raw.githubusercontent.com/Ryanjiena/scoop-apps/version/msedge"
+        },
+        {
+            "source": "/MouseInc",
+            "destination": "https://raw.githubusercontent.com/Ryanjiena/scoop-apps/version/mouseinc"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "https://github.com/Ryanjiena/scoop-apps"
+        }
+    ]
+}
