@@ -19,4 +19,4 @@
       - `/msedge-canary-win-ARM64`
       - `/msedge-canary-win-X86`
       - `/msedge-canary-win-X64`
-- MouseInc: `/MouseInc`
+- MouseInc: `/mouseinc`
