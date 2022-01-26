@@ -50,15 +50,15 @@
         },
         {
             "source": "/msedge",
-            "destination": "https://raw.githubusercontent.com/JaimeZeng/scoop-apps-version/main/msedge"
+            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/msedge"
         },
         {
             "source": "/MouseInc",
-            "destination": "https://raw.githubusercontent.com/JaimeZeng/scoop-apps-version/main/MouseInc"
+            "destination": "https://github.com/Ryanjiena/scoop-apps/raw/version/mouseinc"
         },
         {
             "source": "/(.*)",
-            "destination": "https://github.com/JaimeZeng/scoop-apps-version"
+            "destination": "https://github.com/Ryanjiena/scoop-apps"
         }
     ]
 }
