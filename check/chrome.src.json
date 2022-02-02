@@ -1,0 +1,218 @@
+[
+    {
+        "Product": "stable",
+        "CheckTime": "check-time",
+        "Release": [
+            {
+                "Architecture": "win-x86",
+                "Version": "chrome-stable-win-x86-ver",
+                "ReleaseName": "chrome-stable-win-x86-releasename",
+                "Location": [
+                    "chrome-stable-win-x86-url0",
+                    "chrome-stable-win-x86-url1",
+                    "chrome-stable-win-x86-url2",
+                    "chrome-stable-win-x86-url3",
+                    "chrome-stable-win-x86-url4",
+                    "chrome-stable-win-x86-url5"
+                ],
+                "Hash": "chrome-stable-win-x86-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-stable-win-x86-size"
+            },
+            {
+                "Architecture": "win-x64",
+                "Version": "chrome-stable-win-x64-ver",
+                "ReleaseName": "chrome-stable-win-x64-releasename",
+                "Location": [
+                    "chrome-stable-win-x64-url0",
+                    "chrome-stable-win-x64-url1",
+                    "chrome-stable-win-x64-url2",
+                    "chrome-stable-win-x64-url3",
+                    "chrome-stable-win-x64-url4",
+                    "chrome-stable-win-x64-url5"
+                ],
+                "Hash": "chrome-stable-win-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-stable-win-x64-size"
+            },
+            {
+                "Architecture": "mac-x64",
+                "Version": "chrome-stable-mac-x64-ver",
+                "ReleaseName": "chrome-stable-mac-x64-releasename",
+                "Location": [
+                    "chrome-stable-mac-x64-url0",
+                    "chrome-stable-mac-x64-url1",
+                    "chrome-stable-mac-x64-url2",
+                    "chrome-stable-mac-x64-url3",
+                    "chrome-stable-mac-x64-url4",
+                    "chrome-stable-mac-x64-url5"
+                ],
+                "Hash": "chrome-stable-mac-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-stable-mac-x64-size"
+            }
+        ]
+    },
+    {
+        "Product": "beta",
+        "CheckTime": "check-time",
+        "Release": [
+            {
+                "Architecture": "win-x86",
+                "Version": "chrome-beta-win-x86-ver",
+                "ReleaseName": "chrome-beta-win-x86-releasename",
+                "Location": [
+                    "chrome-beta-win-x86-url0",
+                    "chrome-beta-win-x86-url1",
+                    "chrome-beta-win-x86-url2",
+                    "chrome-beta-win-x86-url3",
+                    "chrome-beta-win-x86-url4",
+                    "chrome-beta-win-x86-url5"
+                ],
+                "Hash": "chrome-beta-win-x86-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-beta-win-x86-size"
+            },
+            {
+                "Architecture": "win-x64",
+                "Version": "chrome-beta-win-x64-ver",
+                "ReleaseName": "chrome-beta-win-x64-releasename",
+                "Location": [
+                    "chrome-beta-win-x64-url0",
+                    "chrome-beta-win-x64-url1",
+                    "chrome-beta-win-x64-url2",
+                    "chrome-beta-win-x64-url3",
+                    "chrome-beta-win-x64-url4",
+                    "chrome-beta-win-x64-url5"
+                ],
+                "Hash": "chrome-beta-win-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-beta-win-x64-size"
+            },
+            {
+                "Architecture": "mac-x64",
+                "Version": "chrome-beta-mac-x64-ver",
+                "ReleaseName": "chrome-beta-mac-x64-releasename",
+                "Location": [
+                    "chrome-beta-mac-x64-url0",
+                    "chrome-beta-mac-x64-url1",
+                    "chrome-beta-mac-x64-url2",
+                    "chrome-beta-mac-x64-url3",
+                    "chrome-beta-mac-x64-url4",
+                    "chrome-beta-mac-x64-url5"
+                ],
+                "Hash": "chrome-beta-mac-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-beta-mac-x64-size"
+            }
+        ]
+    },
+    {
+        "Product": "dev",
+        "CheckTime": "check-time",
+        "Release": [
+            {
+                "Architecture": "win-x86",
+                "Version": "chrome-dev-win-x86-ver",
+                "ReleaseName": "chrome-dev-win-x86-releasename",
+                "Location": [
+                    "chrome-dev-win-x86-url0",
+                    "chrome-dev-win-x86-url1",
+                    "chrome-dev-win-x86-url2",
+                    "chrome-dev-win-x86-url3",
+                    "chrome-dev-win-x86-url4",
+                    "chrome-dev-win-x86-url5"
+                ],
+                "Hash": "chrome-dev-win-x86-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-dev-win-x86-size"
+            },
+            {
+                "Architecture": "win-x64",
+                "Version": "chrome-dev-win-x64-ver",
+                "ReleaseName": "chrome-dev-win-x64-releasename",
+                "Location": [
+                    "chrome-dev-win-x64-url0",
+                    "chrome-dev-win-x64-url1",
+                    "chrome-dev-win-x64-url2",
+                    "chrome-dev-win-x64-url3",
+                    "chrome-dev-win-x64-url4",
+                    "chrome-dev-win-x64-url5"
+                ],
+                "Hash": "chrome-dev-win-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-dev-win-x64-size"
+            },
+            {
+                "Architecture": "mac-x64",
+                "Version": "chrome-dev-mac-x64-ver",
+                "ReleaseName": "chrome-dev-mac-x64-releasename",
+                "Location": [
+                    "chrome-dev-mac-x64-url0",
+                    "chrome-dev-mac-x64-url1",
+                    "chrome-dev-mac-x64-url2",
+                    "chrome-dev-mac-x64-url3",
+                    "chrome-dev-mac-x64-url4",
+                    "chrome-dev-mac-x64-url5"
+                ],
+                "Hash": "chrome-dev-mac-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-dev-mac-x64-size"
+            }
+        ]
+    },
+    {
+        "Product": "canary",
+        "CheckTime": "check-time",
+        "Release": [
+            {
+                "Architecture": "win-x86",
+                "Version": "chrome-canary-win-x86-ver",
+                "ReleaseName": "chrome-canary-win-x86-releasename",
+                "Location": [
+                    "chrome-canary-win-x86-url0",
+                    "chrome-canary-win-x86-url1",
+                    "chrome-canary-win-x86-url2",
+                    "chrome-canary-win-x86-url3",
+                    "chrome-canary-win-x86-url4",
+                    "chrome-canary-win-x86-url5"
+                ],
+                "Hash": "chrome-canary-win-x86-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-canary-win-x86-size"
+            },
+            {
+                "Architecture": "win-x64",
+                "Version": "chrome-canary-win-x64-ver",
+                "ReleaseName": "chrome-canary-win-x64-releasename",
+                "Location": [
+                    "chrome-canary-win-x64-url0",
+                    "chrome-canary-win-x64-url1",
+                    "chrome-canary-win-x64-url2",
+                    "chrome-canary-win-x64-url3",
+                    "chrome-canary-win-x64-url4",
+                    "chrome-canary-win-x64-url5"
+                ],
+                "Hash": "chrome-canary-win-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-canary-win-x64-size"
+            },
+            {
+                "Architecture": "mac-x64",
+                "Version": "chrome-canary-mac-x64-ver",
+                "ReleaseName": "chrome-canary-mac-x64-releasename",
+                "Location": [
+                    "chrome-canary-mac-x64-url0",
+                    "chrome-canary-mac-x64-url1",
+                    "chrome-canary-mac-x64-url2",
+                    "chrome-canary-mac-x64-url3",
+                    "chrome-canary-mac-x64-url4",
+                    "chrome-canary-mac-x64-url5"
+                ],
+                "Hash": "chrome-canary-mac-x64-hash",
+                "HashAlgorithm": "SHA256",
+                "SizeInBytes": "chrome-canary-mac-x64-size"
+            }
+        ]
+    }
+]
