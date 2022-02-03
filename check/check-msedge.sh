@@ -47,18 +47,21 @@ function getGeneratedVersionInfo() {
             # https://unix.stackexchange.com/questions/296705/using-sed-with-ampersand/296732#296732
             releaseInfoUrl=$(echo "$request" | jq -r '.Url' | sed -e 's/[]&\/$*.^[]/\\&/g')
             # SHA256 HMAC -> SHA256
-            releaseInfoSha256HashesArr=($(echo "$request" | jq -r '.Hashes.Sha256' | base64 -d | xxd -p))
+            releaseInfoHashes=($(echo "$request" | jq -r '.Hashes.Sha256'))
+            releaseInfoSha256HashesArr=($(echo "$releaseInfoHashes" | base64 -d | xxd -p))
             releaseInfoSha256Hashes=$(echo "${releaseInfoSha256HashesArr[*]}" | sed 's/ //g')
             releaseInfoSizeInBytes=$(echo "$request" | jq -r '.SizeInBytes')
 
             sed -e "s|msedge-${productArr[i]}-win-${arch}-filename|${releaseInfoFileId}|g" \
                 -e "s|msedge-${productArr[i]}-win-${arch}-url|${releaseInfoUrl}|g" \
-                -e "s|msedge-${productArr[i]}-win-${arch}-hash|${releaseInfoSha256Hashes}|g" \
+                -e "s|msedge-${productArr[i]}-win-${arch}-hash|${releaseInfoHashes}|g" \
+                -e "s|msedge-${productArr[i]}-win-${arch}-sha256|${releaseInfoSha256Hashes}|g" \
                 -e "s|msedge-${productArr[i]}-win-${arch}-size|${releaseInfoSizeInBytes}|g" \
                 -i \
                 msedge.json
 
             sed -e "s|msedge-${productArr[i]}-win-${arch}-url|${releaseInfoUrl}|g" -i link.json
+            sleep 6
         done
     done
     # do not prompt before overwriting
